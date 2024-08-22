@@ -1,6 +1,7 @@
 ---
 import '../css/style.css'
 import Hero from '../components/Hero.astro'
+import Header from '../components/Header.astro'
 
 const {title} = Astro.props;
 ---
@@ -16,5 +17,7 @@ const {title} = Astro.props;
 </head>
 <body>
    <Hero class="hero" id="hero"/>
+   <Header class="header" id="header"/>
+
 </body>
 </html>
