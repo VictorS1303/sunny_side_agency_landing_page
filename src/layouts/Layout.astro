@@ -1,6 +1,6 @@
 ---
 import '../css/style.css'
-import Section from '../components/Section.astro'
+import Hero from '../components/Hero.astro'
 
 const {title} = Astro.props;
 ---
@@ -15,6 +15,6 @@ const {title} = Astro.props;
     <title>{title}</title>
 </head>
 <body>
-   
+   <Hero class="hero" id="hero"/>
 </body>
 </html>
